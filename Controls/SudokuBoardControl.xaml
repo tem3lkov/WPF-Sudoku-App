@@ -1,0 +1,8 @@
+﻿<UserControl x:Class="SudokuProject.Controls.SudokuBoardControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             Background="White">
+    <Border BorderBrush="Black" BorderThickness="3" HorizontalAlignment="Center" VerticalAlignment="Center">
+        <UniformGrid x:Name="GridContainer" Rows="9" Columns="9" Width="450" Height="450" />
+    </Border>
+</UserControl>
